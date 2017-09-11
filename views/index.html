@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="../assets/styles/style.css">
+    <meta charset="utf-8">
+    <title>Hearthstone API</title>
+  </head>
+  <body>
+
+    <div id="bannerDiv"><img id="banner" src="../assets/images/logo.png" /></div>
+
+    <div id="formDiv">
+      <table>
+        <tr>
+          <td>*Hero First Name:</td>
+          <td>Hero Last Name:</td>
+          <td>*Hero Class:</td>
+          <td>Is Premium?:</td>
+          <td>*Hero Color:</td>
+          <td>Hero Image URL:</td>
+        </tr>
+
+        <tr>
+          <form id="form-field">
+            <td><input type="text" id="herofn" placeholder="e.g. Jaina" name="heroFirstName"/></td>
+            <td><input type="text" id="heroln" placeholder="e.g. Proudmoore" name="heroLastName"/></td>
+            <td><input type="text" id="heroclass" placeholder="e.g. Mage" name="heroClass" /></td>
+            <td><input type="text" id="isprem" placeholder="e.g. true" name="isPremium"/></td>
+            <td><input type="text" id="herohex" placeholder="e.g. #FF10AC" name="heroColor"/></td>
+            <td><input type="text" id="heroimg" placeholder="e.g. www.google.com" name="image" /></td>
+            <td><button id="addrow">Add Hero</button></td>
+          </form>
+        </tr>
+        <tr>
+          <td><p>* indicates a required field</p></td>
+        </tr>
+      </table>
+    </div>
+
+    <div id="tableDiv">
+      <table id="heroTable">
+        <thead id="heroHeading">
+
+        </thead>
+        <tbody id="heroBody">
+
+        </tbody>
+      </table >
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="../assets/js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: white;
+  background: url("../images/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+  font-size: 24px;
+}
+
+table {
+  background-color: rgba(121, 98, 45, .5);
+  width: 100%;
+  margin: auto;
+
+}
+
+table p {
+  font-size: 15px;
+  align-items: center;
+  margin: 0px;
+}
+
+#heroTable td, th {
+  text-align: center;
+  border-bottom: 7px solid white;
+}
+
+#heroTable th {
+  font-size: 30px;
+}
+
+#heroTable tr div {
+  height: 70px;
+  width: 70px;
+  border: 3px solid white;
+  margin: auto;
+  border-radius: 3px;
+}
+
+button {
+  padding: 5px;
+  border: 2px white solid;
+  border-radius: 3px;
+  background-color: rgb(121, 98, 45);
+  color: white;
+}
+
+#formDiv {
+  border: 7px solid white;
+  border-radius: 3px;
+  width: 75%;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#tableDiv {
+  border: 7px solid white;
+  border-radius: 3px;
+  margin: auto;
+  width: 75%;
+  height: 520px;
+  overflow-y: scroll;
+}
+
+#tableDiv::-webkit-scrollbar {
+    width: 1em;
+    background-color: rgba(121, 98, 45, .5);
+}
+#tableDiv::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 20px rgba(121, 98, 45, .5);
+}
+#tableDiv::-webkit-scrollbar-thumb {
+  background-color: brown;
+  outline: 1px solid slategrey;
+}
+
+#banner {
+  margin: auto;
+  width: 700px;
+  margin: -75px;
+}
+
+#bannerDiv {
+  margin: auto;
+  text-align: center;
+}
+
+.heroicon {
+  width: 150px;
+}
+
+.deleteRecord {
+  width: 30px;
+}
+
+ .upperCase {
+   text-transform: uppercase;
+ }
+
+ .star {
+   color: red;
+   margin: 0px;
+   padding: 0px;
+ }
